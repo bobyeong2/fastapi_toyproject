@@ -8,25 +8,28 @@ fastapi를 공부하면서 웹 개발 실습 겸 진행하였음.
 
 
 
-# 요구사항
+## 요구사항
  - 사용한 Project Package install
 
 ```python
 pip install -r requirements.txt
 ```
 
-# 개발 환경 및 사용 도구
+## 개발 환경 및 사용 도구
  - Windows 10 (WSL2, Ubuntu20.04)
  - Python (Fast API)
  - Database (Mysql)
  - DB Modeling (Gitmind)
  - revision control (Git)
 
-# Database Structure
+## Database Structure
+ - alembic 이용 시 autogenerate -> upgrade 진행 必
+ - 향후 지속적인 업데이트 예정 (admin 등)
+### ERD
+ ![ToyProjectERD](/app/readme_img/fastapi_erd_0511.png)
+
+## 서비스 기획
  - 추후 업로드 예정
 
-# 서비스 기획
- - 추후 업로드 예정
-
-# 실행 화면
+## 실행 화면
  - 추후 업로드 예정
