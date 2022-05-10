@@ -26,7 +26,7 @@ pip install -r requirements.txt
  - alembic 이용 시 autogenerate -> upgrade 진행 必
  - 향후 지속적인 업데이트 예정 (admin 등)
 ### ERD
- ![ToyProjectERD](/app/readme_img/fastapi_erd_0511.png)
+ ![ToyProjectERD](/root/03_fast_api/app/readme_img/fastapi_erd_0511.png)
 
 ## 서비스 기획
  - 추후 업로드 예정
