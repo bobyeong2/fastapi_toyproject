@@ -1,8 +1,3 @@
+구직 Board API 작성 토이 프로젝트
 
-
-postgresql 명령어 실행
-
-/etc/init.d/postgresql start
-
-<!-- git commit -->
-git commit -m "my message"
+작성하면서 이해 못했던 부분 추가학습 필요.
