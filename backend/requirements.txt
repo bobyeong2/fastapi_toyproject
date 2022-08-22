@@ -74,5 +74,7 @@ pre-commit
 
 #seedir to print tree structure of folders
 seedir
-seedir
 
+#Databases gives asyncio support for a range of databases.
+databases
+asyncpg  #For postgres async support
