@@ -34,8 +34,9 @@ async def home(request: Request, db: Session = Depends(get_db), msg: str = None)
 @router.get("/details/{id}")
 def job_detail(id: int, request: Request, db: Session = Depends(get_db)):
     job = retreive_job(id=id, db=db)
+    print(job)
     return templates.TemplateResponse(
-        "jobs/detail.html", {"request": request, "job": job}
+        "jobs/details.html", {"request": request, "job": job}
     )
 
 
